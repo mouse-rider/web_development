@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js validation</title>
+</head>
+<body bgcolor="lightblue">
+    <h2 aligh="center">Form Validation</h2>
+    <form name="form1" id="form1" align="center" onsubmit=" return(validate());">
+        <table align="center" bgcolor="lightgreen">
+            <th colspan="2">Login</th>
+            <tr></tr>
+            <tr>
+                <td><b>UserName</b></td>
+                <td><input type="text" id="name" placeholder="Enter Your Name"></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><b>Passward</b></td>
+                <td><input type="password" id="pass" placeholder="Enter Your Pass"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+
+        </table>
+    </form>
+    <script>
+        function validate(){
+            var name=document.getElementById("name").value;
+            var pass=document.getElementById("pass").value;
+
+            if (name== ""){
+                alert("Enter the name ");
+                document.form1.name.value.focus();
+                return false;
+            }
+            if (!isNaN(name)){
+                alert("Enter alphabets only ");
+                document.form1.name.value="";
+                document.form1.name.value.focus();
+                return false;
+            }
+            if (pass.length <6 ){
+                alert("Enter atleast 6 characters ");
+                document.form1.name.value="";
+                document.form1.name.value.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>

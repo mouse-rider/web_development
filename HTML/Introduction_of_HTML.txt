@@ -1,0 +1,109 @@
+~ Let's discuss the basics of HTML now.
+~ HTML stands for HyperText Markup Language 
+~ It is the most basic building of the web
+~ It is the first fundamental step to unterstand how web applications are built.
+~ We will then, study other technologies such as CSS to style the HTMl and JavaScript to add functionality later.
+~ once we reach the back end web development where we learn Python and Django sectionsof the course we will know how to add Django template tags to HTML and dynamically generate content dased off a user's interaction with the website!
+~ But for now we will start discussing the below topics:
+1. HTML basics
+2. Tagging 
+3. Lists
+4. Divs and Spans
+5. Attributes
+6. Images
+
+~ Once you open an text editor and type html and hit enter, the basic structure of html is displayed.  --> (boiler plate)
+~ The first line has the code shown
+    ~ <!DOCTYPE html>
+~ In the second line, we have below code
+    ~ <html lang="en" dir="ltr">  
+    lang --> language
+    en --> english 
+    dir --> direction
+    ltr --> left to right (direction)
+~ HTML lang attribute: 
+    ~ lang attribute of HTML sets the language of an element in HTML document. Usage of lang attribute helps the browser to display the text in the desired language. 
+    ~ "en" stands for English language
+~ HTML dir attribute:
+    ~ dir attribute of HTMl sets the direction of the text within an element in HTML document.
+    ~ The value of the dir attribute is either "ltr" (i.e. left to right) or rtl (right to left).
+~ In the third line, we can see head tag and the corresponding code is shown below
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+~ Now let's discuss HTML <meta> charset Attribute:
+    ~ The charset attribute specifies the character encoding for the HTML document.
+    ~ UTF-8 : Character encoding for Unicode
+    UTF-8 stands for "Universal Transformation Format of 8 bits"
+
+~ Let's now talk about the HTML <title> Tag:
+    ~ The <title> tag defines the title of the document.
+    ~ The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+    ~ The <title> tag is required in HTML documents!
+    
+~ Finally we have the HTML <body> Tags:
+    ~ The <body> tag defines the document's body.
+    ~ The <body> element contains all the content of HTML document, such as heading, paragraphs, images, hyperlinks, tables, lists, etc.
+
+~ Now let's finally talk about HTML Comment Tags:
+    ~ Comments are not displayed by the browser, but they can help document your HTMl source code.
+    ~ You can add comments to your HTML source by using the following syntax:
+    ~ <!-- Write your comment here -->
+    ~ Notice that there is an exclamation point(!) in the start tag, but not in the end tag. Please follow the same syntax as shown in the above point.
+
+~ Let's start by exploring the basics of what an html file looks like and how we can open it in browser!
+~ HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way.
+~ The enclosing tags can make the font bigger or smaller, and so on.
+
+~ What is meant by element in HTML?
+    ~ An HTML element is an individual component of an HTMl document.
+    ~ It represents semantics, or meaning.
+    ~ For example, the title element represents the title of the document.
+    ~ Most HTML elements are written with a start tag (or opening tag) and an end tag (or closing tag), with content in between.
+    ~ The main parts of our element are as follows:
+        1. The opening tag
+        2. The closing tag 
+        3. The content 
+        4. The element
+
+~ The opening tag :
+    ~ This consists of the name of the element, wrapped in opening and closing angle brackets. This states where the elements begins or starts to take effect.
+    ~ Eg : <p> (paragraph)
+
+~ The closing tag:
+    ~ This is the same as the open tag, except that it includes a forward slash before the element name. This states where the element ends.
+    ~ Failing to add a closing tag is one of the standard beginner error and can lead to strange results.
+    ~ Eg : </p> (paragraph)
+
+~ The content:
+    ~ This is the content of the element.
+    ~ Eg : <p>This is content</p>
+
+~ The element :
+    ~ The opening tag, the closing tag and the content together comprise the element.
+    ~ Eg : <p>This is content</p>
+
+~ Basic Tags:
+~ We will now learn the basic heading tags and paragraph tags.
+
+~ What is heading tag?
+    ~ Heading tags are indicators used in HTML to help structure your webpage and also helping the browser to read your piece of content.
+    ~ Heading tags range from H1-H6 and form a hierarchical structure to your page.
+    ~ H1 is the highest abd H6 is the lowest in size. But all heading tags are in bold.
+
+~ What is paragraph tag in HTML?
+    ~ The HTML <p> element defines a paragraph.
+    ~ A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+    ~ One beautiful feature about paragraph tags is that we can put multiple paragraph tags in the same line but you can see separation is created by paragraph tags
+    ~ FILLER TAGS: Lorem Ipsum (used to fill data when required for sample projects)
+    ~ BOLD AND ITALICS: <b> or <strong> and <i> or <em>
+    ~ Now let's go to any one our text editors to discuss both these tags
+
+
+
+
+
+    

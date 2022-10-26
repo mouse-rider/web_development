@@ -1,0 +1,7 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    /* repeat -> to repeate the image multiple times in the background  */
+    background-color: rgb(240, 137, 137);
+}
+

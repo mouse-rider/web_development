@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function check()
+        {
+            var emp_name = document.getElementById("n1").value;
+            var emp_age = document.getElementById("ag").value;
+            var phone_no = document.getElementById("ph").value;
+            var emp_exp = document.getElementById("exp").value;
+            var age,exper,phone;
+            document.write("Name of the employee "+emp_name);
+            document.write("<br>");
+            document.write("Data type of name "+(typeof emp_name));
+            document.write("<br><br><br>");
+            document.write("Employee age "+emp_age); document.write("<br>");
+            document.write("Data type of age "+(typeof emp_age));
+            document.write("<br><br><br>");
+            document.write("Phone Number "+phone_no); document.write("<br>");
+            document.write("Data type of PhoneNo, "+(typeof phone_no));
+            document.write("<br><br><br>");
+            document.write("Work Experience "+emp_exp);
+            document.write("<br>");
+            document.write("Data type of Work Experience "+(typeof emp_exp));
+            document.write("<br>");
+            
+            //convert
+           /* document.write("<br>");
+            age=parseInt(emp_age);
+            document.write(age); document.write("<br>");
+            document.write(typeof age);
+            document.write("<br>");
+            document.write("<br>");
+            phone=parseInt(phone_no);
+            document.write(phone);
+            document.write("<br>");
+            document.write(typeof phone);
+            document.write("<br>");
+            document.write("<br>");
+            exper=parseFloat(emp_exp);
+            document.write(exper);
+            document.write("<br>");
+            document.write(typeof exper);
+            */
+        }
+    </script>
+    <h1>Employee Details</h1>
+        Enter Employee Name
+        <input type="text" name="name" id="n1"><br><br>
+        Enter age
+        <input type="number" name="age" id="ag"><br><br>
+        Enter phone Number
+        <input type="number" name="phoneNo" id="ph" value=""><br><br>
+        Enter Work experience <input type="number" name="exp" id="exp"><br><br>
+        <input type="submit" value="Submit" onclick="check();">
+</body>
+</html>

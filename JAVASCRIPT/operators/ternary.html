@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ternary Operators</h1>
+    <p>condition ? value1:value2</p>
+    <script>
+        function check()
+        {
+            var name = document.getElementById("name").value;
+            var mark = document.getElementById("m1").value;
+            (mark>=35)?document.write(name+"pass"):document.write(name+"fail");
+            
+        }
+    </script>
+</body>
+<h1>Student Details</h1>
+Enter name 
+<input type="text" name="n1" id="name"><br><br>
+Enter mark 
+<input type="number" name="m1" id="m1"><br><br>
+<input type="submit" value="Check" onclick="check();">
+</html>
