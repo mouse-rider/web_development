@@ -1,0 +1,180 @@
+WHAT ARE PHP DATA TYPES
+
+VARIABLES DATA TYPES 
+
+*Integer positive or negative 
+*string
+*float or double
+*array stores multiple values in one single variable
+*object
+*boolean states:true or false
+*NULL special data types 
+
+It is automatically changes its data types like python does not give any datatypes.
+
+for example:
+<?php
+$name="kishore";
+$name=1;
+echo var_dump($name)
+?>
+
+output:
+int(1)
+
+
+EXAMPLE FOR ALL DATA TYPES DECLARED IN A VARIABLE.
+
+<?php
+//integer
+$data_int=1;
+//string
+$data_str="kishore";
+//float
+$data_flt=1.1;
+//array
+$data_arr=["red", "green","blue"];
+//object 
+class colour{
+    function get_colour(){
+        return "green";
+    }
+}
+$data_obj=new colour();
+$data_obj->get_colour();
+echo $data_int."--".$data_str."--".$data_flt;
+?>
+
+output:
+green,_kishore_1.1
+
+*BOOLEAN
+<?php 
+$name=true 
+echo_var_dump($name)
+?>
+
+output:
+boolen(ture)
+
+
+<?php
+$name="";
+if($name){
+echo"name is set";
+}
+else{
+echo"name is not set";
+}
+?>
+ 
+output:
+name is not set 
+
+
+<?php
+$name="1";
+if($name){
+echo"name is set";
+}
+else{
+echo"name is not set";
+}
+?>
+
+output:
+
+name is set
+
+Null-> special data type. Capts (or) small 
+If the variable is created without Value. It automatically a assign to the value of
+<?php
+& name hall; 
+if ($name){
+echo "name is set";
+}else{
+echo "name is not set";
+}
+?>
+
+PHP string & Numbers.
+
+Strings and Numbers 
+*Numbers (Integer, float) I string is a sequence of charactors 'Singh Quotes' or dougble quots'
+
+for example:
+<?php
+$age=1;
+$flt=75.5;
+//echo $age;
+echo var_dump(is_int($age));
+//echo var_dump(is_float($age));
+?>
+
+output:
+boot(true)
+
+string concatination --> (.)dot 
+<?php
+$name="kishore";
+$age='20';
+echo $name."--".$age;
+?>
+o/p:
+kishore--20
+
+*string length:--> strlen()
+<?php
+$name="kishore";
+$age='20';
+echo strlen($name);
+?>
+o/p:
+7
+
+*string word:->str_word_count()
+
+<?
+$name="kishore kumar";
+echo str_word_count($name);
+?>
+
+output:
+2
+
+*string reverse -.strrev()
+*string postion ->strpos ($name,"chennai")
+
+output:
+8
+
+
+Lost accurence of string ->strpos()
+
+<?php
+$name="sathish chennai"
+echo strrpos ($name,"i")
+?>
+
+output:
+14 lost
+
+
+*Trim ->without white space removing white space 
+
+<?php
+$name="sathish chennai"
+echo trim ($name);
+?>
+
+output:
+sathish chennai
+
+string replace:
+<?php
+$name ="sachini chennai";
+echo str_replace ('chennai','madurai','salem')
+?>
+
+output:
+sachin madurai

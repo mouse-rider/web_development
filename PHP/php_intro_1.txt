@@ -1,0 +1,53 @@
+PHP INDRODUCTTION:
+
+(A powerfull severside scriptin lang)
+
+used for wed development wed services
+
+1995: Personal home page->first realized later 
+
+PHP: Hyper text preprocessor
+
+
+WHY PHP.
+
+* We can creating dynamic and interactive website. Ex..facebook
+
+* dynomic-> server and backend.
+
+Realtime Ex. facebook multiple user login 
+
+single screen login user base.
+
+interactive website-> interact with users.
+
+* PHP support various platforms like 
+( windows, linux,unix,ext..)
+
+*It is a free language, we can download it form the offical PHP site:www.php.net
+
+*works will with cms like (wordpress, drupal , magneto)
+                 ----
+                  |
+              content management system 
+                 |
+              web content
+
+*larger community libraries
+
+PHP PREREQUISITES
+
+server side! client side! backend!
+
+client side:
+
+client code run in web browser, chrome, firefox, internet explorer,
+
+HTML                     SERVER SIDE                  service side code
+CSS   --REQUEST 1 ------>   PHP                        ils
+JS     <-----4RESPONDSE      3 |                       apache
+                               |2
+                           MYSOL  database   
+
+
+

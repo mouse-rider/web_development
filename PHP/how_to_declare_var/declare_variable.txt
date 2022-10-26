@@ -1,0 +1,30 @@
+                                                         PHP Variabler & Data types
+
+*How to Declare Variable in PHP?
+
+*What Are PHP Data Types? J PHP Strings e Numbers.
+
+*What are Constants in PHP?
+
+how to Declare variable in php?
+
+-PHP Vorables.
+
+* Variables starts with the & sign, followed by the  name of the variable
+
+*Variable name must start with a letter or the underscore character.
+
+*Variable name cannot start twoth a number.
+
+* Variable name can only contain alpha numeric charactor and underscores(A-2, 0-9, and -).
+
+example:
+
+<?php
+$color="blue"
+echo $color;
+?>
+
+output:
+blue
+

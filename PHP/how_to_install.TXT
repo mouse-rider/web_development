@@ -1,0 +1,63 @@
+                          HOW TO INSTALL PHP ON WINDOWS
+
+
+Installation
+
+pc->server how 
+
+web host-->after developement 
+
+web server-->apache
+                     }download
+               ils 
+
+ then download php  www.php.net
+
+*good performer in mysql database intraction with other database but dnot install these things 
+
+WAMPP,XAMPP 
+
+use this 
+
+WAMPP is better then XAMPP,
+
+because all in one in XAMPP
+
+automatically downloaded all php,mysql server (apache)in your pc
+
+
+HOW TO INSTALL XAMPP
+
+Step to install xampp
+
+*Apache Friends website (https://www.apachefriends.org/)
+
+*Go to XAMPP for Windows button Download: Windows, linux.
+
+* Double-click the downloaded file to launch the installer.
+
+*click the Ok and Next button to install xampp
+
+*first Start
+
+*Apache server.
+
+*Once started the Apache server go to browser-->type "local host"
+
+Now,
+
+create php file 
+
+c:\xampp\htdocs-->creat folder 
+                  name -->"php demo"
+                          and create file in note pad for extension in php
+
+ex. index.php
+    <php
+     echo "welcome";
+     ?>                                          
+                                                  
+Now, how to run php file 
+
+In browser,
+localhost/phpdemo/

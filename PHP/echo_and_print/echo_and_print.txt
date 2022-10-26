@@ -1,0 +1,96 @@
+
+PHP Echo & Print Statements.
+ -PHP Statements.
+
+echo and print. 
+*They are the both used to output data to the screen.
+
+
+                                                 ECHO                                                              PRINT
+
+*Display the output. It can be used with paen there echo or wothout parentheses echo                 *Display the output. It can be used with parantheses print or without parenterese print 
+*We can pass multiple string sepatated as ,                                                          *cant pass multiple arguements
+*does not return any value                                                                           *print always returen.
+*fast then print                                                                                     *it is slower than echo.
+
+
+for example:
+
+<?php
+$data="madurai";
+$get_data = echo $data;
+echo $get-data;
+?>
+
+error:
+because echo does not return any value
+
+
+EXAMPLE FOR PRINT:
+
+<?php
+$data="madurai";
+$get_data = print $data;
+echo $get_data;
+?>
+
+output:
+madurai
+
+becasue it retutns value
+
+FOR EXAMPLE ECHO AND PRINT
+
+<?PHP
+$array=["red","yellow","green"];
+echo$array;
+?>
+
+output:
+error
+
+because it does not consiste any multiple values or variables
+
+<?php
+$array=["red","yellow","green"];
+echo$array[1];
+?>
+
+output:
+red 
+
+This is correct because its gives single output it doesnto consiste any mukltiole or variables
+
+<?php
+$name = "Kishore";
+$age = "25";
+$ place = "chennai";
+echo $name, $age, $place;
+?>
+
+output:
+kishore25chennai
+
+
+<?php
+$name= "Kishore";
+$age="25";
+$place=="chennai"; 
+print frame, page, & place
+?>
+
+output:
+error
+
+*Print doesn't consist multiple variables in Single statement.
+
+*echo consiste multifile Variables in Single statement a
+
+                 Multiple parameters.
+
+<?php
+$array = [ "red", "green", "blue"];
+echo $array [1];
+?>
+
+PHP Variabler & Data types

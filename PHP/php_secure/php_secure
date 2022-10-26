@@ -1,0 +1,9 @@
+
+WHY PHP IS SECURE?
+
+server side code does not visible to clint.
+
+for example:
+
+right click and click view source code it only shows the print or echo statement it doesnot show s the code so that it is more secure.
+does not server side logic to clienct.

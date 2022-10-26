@@ -1,0 +1,18 @@
+PHP or Hypertext Preprocessor, has become one of the most popular server-side scripting language for 
+creating dynamic webpages. PHP was created by Rasmus Lerdorf to track users at his website. In 1997 ,
+Lerdorf released it as a package called "Personal Home Page Tool." 
+
+PHP is an open-source technology that is supported by a large community of users and developers. 
+PHP is platform independent-implementations exist for all major UNIX, LINUX, Mac and Windowsoperating system.
+PHP also supports many databases, including MySQL.
+
+After introducing the basics of the PHP scripting language, we discuss from pro-cessing and business 
+logic, which are vital to e-commerce application. Next, we build a three-tier web application that 
+queries a MySQL database. We also show how PHP can use COOKIES to store information on the client that 
+can retrieved during future visits to the website. We revisit the form-processing example to demonstrate some of PHP's more dynomic capabilities.
+
+PHP supports a larger number of major protocals such as POP3, IMAP and LDAP. PHP added support for Java and distributed object architectures (COM and CORBA), making n-tier development a possibility for to be as ffirst time.
+
+It is a free language , we can download it from the official website : www.php.net
+
+Works well with CMS(Content Management System) like (Wordpress, Drupal, Magneto)

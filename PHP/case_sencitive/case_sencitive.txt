@@ -1,0 +1,35 @@
+
+Is php a case sensitive language?
+
+php case sensitivity
+
+not case-sensitive
+*keywords
+(if,else,null,foreach,echo,etc..)
+*classes
+*functions
+ 
+
+Example:
+<?php
+  ECHO"welcome";
+  echo"welcome";
+ ?>
+OUTPUT:
+welcome welcome
+
+case sensitive
+*variable
+*constants
+*array keys
+*class properties
+*class constants
+
+How to comment in PHP?
+
+PHP Comments 
+<?php
+//single line cornment
+ #This is also a singl line comment
+/* multilines. comment block */
+?>

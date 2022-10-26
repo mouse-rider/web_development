@@ -1,0 +1,27 @@
+
+                                      PHP BASIC SYNTAX
+
+Basic syntax of php
+
+syntax overview 
+
+Basic                      |short hand
+<?php                      |<?
+  //our code goes here;    |  //our code goes here;     (code goes to serverside code)
+ ?>                        | ?>
+
+
+important:
+
+if you decleared a variable or print statement it must contain semicolon in last
+
+
+for example:
+
+<? php
+  $place="chennai";
+  echo$place;
+ ?>
+
+output:
+chennai
